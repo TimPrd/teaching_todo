@@ -6,6 +6,7 @@ requirements:
 - [mongodb](https://docs.mongodb.com/manual/administration/install-community/)
 
 install required nodejs modules with `npm install`
+start mongodb `systemctl start mongod`
 
 ## running the app
 start with `npm start`
