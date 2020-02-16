@@ -2,6 +2,7 @@
 
 ## installation
 requirements:
+- [node](https://nodejs.org/en/download/)
 - [npm](https://www.npmjs.com/get-npm)
 - [mongodb](https://docs.mongodb.com/manual/administration/install-community/)
 
