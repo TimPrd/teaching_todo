@@ -9,9 +9,13 @@ const todoFront = fs.readFileSync("./src/front/todo.ejs", "utf-8");
 
 const app = express();
 
-mongoose.connect(process.env.DB || "mongodb://localhost/todo", { useNewUrlParser: true, useUnifiedTopology: true })
-	.then(() => app.emit("db ready"))
-	.catch(err => console.error(err));
+mongoose.connect(process.env.DB || "mongodb://localhost/todo", { useNewUrlParser: true, useUnifiedTopology: true }, (err) => {
+  if (err) {
+    console.error(err)
+    process.exit(1);
+  }
+  app.emit("db ready");
+})
 
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -43,3 +47,5 @@ app.on("db ready", () => {
   console.log(`app listening on port ${PORT}`);
   app.listen(PORT);
 });
+
+module.exports = app;
