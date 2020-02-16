@@ -1,9 +1,6 @@
 [![CircleCI](https://circleci.com/gh/ntibi/teaching_todo.svg?style=svg)](https://app.circleci.com/github/ntibi/teaching_todo/pipelines)
 # simple todo app
 
-
-https://app.circleci.com/github/ntibi/teaching_todo/pipelines
-
 ## installation
 requirements:
 - [node](https://nodejs.org/en/download/)
