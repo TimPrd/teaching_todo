@@ -1,4 +1,4 @@
-[![<ORG_NAME>](https://circleci.com/gh/ntibi/teaching_todo.svg?style=svg)](https://app.circleci.com/github/ntibi/teaching_todo/pipelines)
+[![CircleCI](https://circleci.com/gh/ntibi/teaching_todo.svg?style=svg)](https://app.circleci.com/github/ntibi/teaching_todo/pipelines)
 # simple todo app
 
 
