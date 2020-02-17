@@ -1,5 +1,7 @@
 # simple todo app
 
+[![Coverage Status](https://coveralls.io/repos/github/TimPrd/teaching_todo/badge.svg?branch=master)](https://coveralls.io/github/TimPrd/teaching_todo?branch=master)
+
 ## installation
 requirements:
 - [node](https://nodejs.org/en/download/)
