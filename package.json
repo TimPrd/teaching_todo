@@ -23,7 +23,9 @@
     "express": "^4.17.1",
     "jest": "^25.1.0",
     "mongoose": "^5.9.1",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "winston": "^3.2.1",
+    "winston-elasticsearch": "^0.8.3"
   },
   "devDependencies": {
     "coveralls": "^3.0.9"
